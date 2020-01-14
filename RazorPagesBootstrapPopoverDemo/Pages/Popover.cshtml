@@ -1,0 +1,13 @@
+﻿@page
+@model RazorPagesBootstrapPopoverDemo.PopoverModel
+@{
+    ViewData["Title"] = "Popover";
+    Layout = null;
+}
+
+<ul class="list-group">
+    @foreach(var message in Model.Messages)
+    {
+        <li class="list-group-item">@message</li>
+    }
+</ul>
